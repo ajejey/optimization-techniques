@@ -10,7 +10,7 @@ const debounce = (func, delay) => {
   };
 };
 
-// ListItem Component is created and is memoized. This takes in an item and a handleCheckBox function as props
+// ListItem Component is created and is memoized. This takes in an item, handleCheckBox function, and isSelected as props
 const ListItem = React.memo(({ item, handleCheckBox, isSelected }) => (
   <div>
     <input
